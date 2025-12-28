@@ -24,8 +24,6 @@ void ACube::Move()
 void ACube::Turn()
 {
 
-
-	
 		float RLP = FMath::RandRange(TurnMin, TurnMax);
 		float RLY = FMath::RandRange(TurnMin, TurnMax);
 		float RLR = FMath::RandRange(TurnMin, TurnMax);
